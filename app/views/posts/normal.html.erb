@@ -1,0 +1,22 @@
+<h1> Posts</h1>
+<% @posts.each do |post| %>
+  <tr>
+  	<td><b><%= post.titulo %></b></td>
+  	<br>
+    <td><%= post.contenido %></td>
+    <br>
+    <br>
+    <td><%= post.likes %></td>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+   	<a href="/posts">administrador</a>
+  </tr>
+<% end %>
